@@ -25,7 +25,6 @@ net.Receive("TellAllMessage", function()
     local textWidth, textHeight = surface.GetTextSize(message)
     local panelHeight = textHeight + 20
     
-    -- Создаем панель
     local panel = vgui.Create("DPanel")
     panel:SetSize(math.max(textWidth + 20, 400), panelHeight)
     panel:SetAlpha(0)
