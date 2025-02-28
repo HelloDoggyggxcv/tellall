@@ -6,11 +6,8 @@ util.AddNetworkString("TellAllMessage")
 
 local allowedRanks = {
     superadmin = true,
-    manager = true,
-    event_curator = true,
-    curator = true,
-    ml_curator = true,
-    assistant = true,
+--  Your rank = true,
+--  Your rank = true,
 }
 
 hook.Add("PlayerSay", "TellAllCommand", function(player, text, teamChat)
